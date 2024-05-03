@@ -14,7 +14,7 @@ import utils.Utilities;
 
 public class Base {
 
-	WebDriver driver;
+	WebDriver driver   ;
 	public Properties prop;
 	
 	public Base() {
@@ -26,7 +26,7 @@ public class Base {
 			FileInputStream fis = new FileInputStream(propFile);
 			prop.load(fis);
 		} catch (Throwable e) {
-			e.printStackTrace();  //
+			e.printStackTrace();   ///testPushLocalRepo
 		}
 		
 	}
